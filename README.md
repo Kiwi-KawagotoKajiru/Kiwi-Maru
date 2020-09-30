@@ -11,7 +11,7 @@
 <h2>フォントデザインに関して</h2>
 （1）<br>
 　このフォントは、もじワク研究のマメロン（https://moji-waku.com/mamelon/) の制作者と同一の人物です。<br>
-　無断でマメロンをオープンソース化した訳でありません。<br>
+　無断でマメロンを派生させ、オープンソース化した訳でありません。<br>
 （2）<br>
 　Glyphsのデータは、ものかの (https://tama-san.com/download/) に公開されている、<br>
 　テンプレート (https://github.com/monokano/Glyphs-Template) を元に作られています。<br>

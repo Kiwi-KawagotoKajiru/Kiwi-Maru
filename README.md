@@ -1,3 +1,7 @@
+
+
+
+
 <h2>キウイ丸　概要</h2>
 収録字数：AdobeJapan Std1-3N<br>
 ウエイト：L、R、M<br>
@@ -36,7 +40,7 @@
 　その他不明な点は、原文（https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1） を<br>
 　参照いただくか、同封の「OFL.txt」（英語）をご確認ください。<br>
  (5）<br>
- 　これらに関して不明な点がございましたら、info@kiwi-kawagoto.com　までご連絡ください。
+ 　不明な点がございましたら、info@kiwi-kawagoto.com　までご連絡ください。
  
  
  

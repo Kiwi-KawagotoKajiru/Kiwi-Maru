@@ -1,7 +1,9 @@
 
-
-
-
+<img src="https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru/blob/master/documentation/kiwi01.png">
+<img src="https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru/blob/master/documentation/kiwi02.png">
+　この書体は主にデジタルデバイスで使用することを意識し制作しました。WEBフォントや論文・レポートなどで、実験的に使用していただけると幸いです。<br>
+<img src="https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru/blob/master/documentation/kiwi03.png"> 
+ ○漢字は教科書体の運筆を参考に、手書きの形に近づくようデザインにしています。明朝体やゴシック体の【糸】や【比】や【充】などの部品は、手書きの画数とデザインの画数が異なります。こうした部分に注目し手書きの延長にあるような印象が特徴です。<br>
 <h2>キウイ丸　概要</h2>
 収録字数：AdobeJapan Std1-3N<br>
 ウエイト：L、R、M<br>

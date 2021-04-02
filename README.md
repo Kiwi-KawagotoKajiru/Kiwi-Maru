@@ -43,7 +43,7 @@
  　この場合、雑誌本体に著作物としての保護が与えられますので、<br>
  　特典のディスクデータにも保護が及び、無断配布された場合、法手続きが可能となります。<br>
 （4）<br>
-　その他不明な点は、原文（https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1） を<br>
+　その他不明な点は、原文（https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html） を<br>
 　参照いただくか、同封の「OFL.txt」（英語）をご確認ください。<br>
  (5）<br>
  　不明な点がございましたら、info@kiwi-kawagoto.com　までご連絡ください。

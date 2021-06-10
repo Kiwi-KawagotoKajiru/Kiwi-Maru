@@ -10,6 +10,13 @@ __main__.main(("-g","sources/KiwiMaru-Regular.glyphs", "-o","ttf",))
 
 path = Path("master_ttf")
 
+def GASP_set(font:TTFont):
+    if "gasp" not in font:
+        font["gasp"] = newTable("gasp")
+        font["gasp"].gaspRange = {}
+    if font["gasp"].gaspRange != {65535: 0x000A}:
+        font["gasp"].gaspRange = {65535: 0x000A}
+
 for font in path.glob("*.ttf"):
     modifiedFont = TTFont(font)
     print ("["+str(font).split("/")[1][:-4]+"]Adding additional bits")
@@ -29,19 +36,8 @@ for font in path.glob("*.ttf"):
         modifiedFont["name"].addMultilingualName({'ja':'キウイ 丸'}, modifiedFont, nameID = 1, windows=True, mac=False)
         modifiedFont["OS/2"].usWeightClass = 500
 
+    GASP_set(modifiedFont)
     modifiedFont.save("fonts/ttf/"+str(font).split("/")[1])
-
-for font in Path("fonts/ttf").glob("*.ttf"):
-    subprocess.check_call(
-        [
-            "ttfautohint",
-            "--stem-width",
-            "nsn",
-            str(font),
-            str(font)[:-4]+"-hinted.ttf",
-        ]
-    )
-    shutil.move(str(font)[:-4]+"-hinted.ttf", str(font))
 
 shutil.rmtree("instance_ufo")
 shutil.rmtree("master_ufo")
